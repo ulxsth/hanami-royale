@@ -15,6 +15,11 @@ public final class HanamiRoyaleMain extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        try {
+            this.getCommand("start").setExecutor(new com.ulxsth.hanamiroyale.commands.StartTimerExecuter());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override

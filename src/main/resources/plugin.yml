@@ -1,4 +1,8 @@
 name: hanami-royale
 version: '${version}'
-main: com.ulxsth.hanamiroyale.Hanami_royale
+main: com.ulxsth.hanamiroyale.HanamiRoyaleMain
 api-version: '1.19'
+commands:
+  start:
+    description: "ゲームを開始します"
+    usage: /start
