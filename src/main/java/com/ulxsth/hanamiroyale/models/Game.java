@@ -6,7 +6,7 @@ import org.bukkit.Bukkit;
 public class Game {
     private static final int TIME = 20;
 
-    private HanamiRoyaleMain plugin;
+    private HanamiRoyaleMain plugin = HanamiRoyaleMain.getInstance();
     private int time;
 
     public void startTimer() {
