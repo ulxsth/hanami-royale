@@ -1,0 +1,4 @@
+name: hanami-royale
+version: '${version}'
+main: com.ulxsth.hanamiroyale.Hanami_royale
+api-version: '1.19'
