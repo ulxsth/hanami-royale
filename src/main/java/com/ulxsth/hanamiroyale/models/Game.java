@@ -17,8 +17,8 @@ public class Game {
             plugin.getLogger().info("Time left: " + time);
             if(time > 0) {
                 Bukkit.getOnlinePlayers().forEach(player -> {
-                    player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 20, 1));
-                    player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 20, 1));
+                    player.addPotionEffect(new PotionEffect(PotionEffectType.SPEED, 20, 5));
+                    player.addPotionEffect(new PotionEffect(PotionEffectType.JUMP, 20, 5));
                 });
                 time--;
             } else {
