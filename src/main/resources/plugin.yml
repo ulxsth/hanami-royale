@@ -6,3 +6,7 @@ commands:
   start:
     description: "ゲームを開始します"
     usage: /start
+
+  cgive:
+    description: "指定したプレイヤーにアイテムを与えます"
+    usage: /cgive <item> [amount]

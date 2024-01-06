@@ -17,6 +17,7 @@ public final class HanamiRoyaleMain extends JavaPlugin {
         instance = this;
         try {
             this.getCommand("start").setExecutor(new com.ulxsth.hanamiroyale.commands.StartTimerExecuter());
+            this.getCommand("cgive").setExecutor(new com.ulxsth.hanamiroyale.commands.CustomGiveExecuter());
         } catch (Exception e) {
             e.printStackTrace();
         }
